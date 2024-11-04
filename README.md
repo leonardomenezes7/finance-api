@@ -38,5 +38,25 @@ I developed an API using Node.js, TypeScript, and PostgreSQL that allows users t
 ## 🚀 How To Run
 ```bash
 # Clone the project to the desired location on your computer.
+git clone https://github.com/leonardomenezes7/finance-api.git
+
+# Navigate to the directory
+cd finance-api
+
+# Install the dependencies
+npm run dev
+
+# Run Database migrations
+npm run knex -- migrate:latest
+
+# Create a .env file and enter the necessary variables based on .env.example file
+
+# Start the server
+npm run dev
 
 ```
+
+## 📎 About
+I developed this project as part of Rocketseat’s Node.js course, where I learned a lot about REST API development. This experience helped me gain a deeper understanding of building robust APIs, handling requests, managing databases, and implementing best practices in backend development.
+
+### 👤 Developed by [Leonardo Menezes](https://www.linkedin.com/in/leonardo-menezes-04629a292/)
