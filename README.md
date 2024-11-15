@@ -44,7 +44,7 @@ git clone https://github.com/leonardomenezes7/finance-api.git
 cd finance-api
 
 # Install the dependencies
-npm run dev
+npm install
 
 # Run Database migrations
 npm run knex -- migrate:latest
